@@ -22,4 +22,3 @@ function notify_message($message,$token){
  $res = json_decode($result);
  return $res;
 }
-{"status":200,"message":"ok"}
