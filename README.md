@@ -1,7 +1,7 @@
 # -
 ทดสอบระบบ
 define(‘LINE_API’,”https://notify-api.line.me/api/notify");
-$token = “”; //DOzonPzj7faB3DvjpeC1HKkskDLIvXziKSL7iX7458g
+$token = “DOzonPzj7faB3DvjpeC1HKkskDLIvXziKSL7iX7458g”; //
 $str = “Hello”; //
 $res = notify_message($str,$token);
 print_r($res);
